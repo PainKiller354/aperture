@@ -1,21 +1,58 @@
-@media only screen and (max-width: 1024px) {
-
-}
-@media only screen and (max-width: 992px) {
-
+@media only screen and (max-width: 1250px) {
+    .d-flex{
+        justify-content: space-around;
+    }
 }
 @media only screen and (max-width: 767px) {
-
+    .d-flex{
+        flex-wrap: wrap;
+    }
+    .clients_banner a {
+        margin: 10px 35px;
+    }
+    .photo_banner{
+        padding-right: 20px;
+    }
+    .photo_banner2{
+        padding-right: 20px;
+    }
+    .photo_banner3{
+        padding-right: 20px;
+    }
+}
+@media only screen and (max-width: 650px) {
+    header nav ul{
+        display: none;
+    }
+}
+@media only screen and (max-width: 594px) {
+    .clients_banner p{
+        padding: 0 10px;
+    }
+    .clients_banner a {
+        margin: 10px 15px;
+    }
 }
 @media only screen and (max-width: 420px) {
-
-}
-@media only screen and (max-width: 375px) {
-
+    .photo_banner{
+        justify-content: left;
+        padding-left: 10px;
+    }
+    .photo_banner2{
+        justify-content: left;
+        padding-left: 10px;
+    }
+    .photo_banner3{
+        justify-content: left;
+        padding-left: 10px;
+    }
 }
 @media only screen and (max-width: 360px) {
-
-}
-@media only screen and (max-width: 320px) {
-
+    .components{
+        right: 15px;
+        bottom: 30px;
+    }
+    .components li{
+        margin-left: 10px;
+    }
 }

@@ -1,14 +1,12 @@
 *{
     padding: 0;
     margin: 0;
-
 }
 
 header{
     background-color: black;
     padding: 24px 0;
 }
-
 .container{
     max-width: 1168px;
     margin: auto;
@@ -64,6 +62,7 @@ header nav ul li:last-of-type a{
     justify-content: center;
     align-items: end;
     padding-bottom: 71px;
+    position: relative;
 }
 .main_banner .container{
     max-width: 580px;
