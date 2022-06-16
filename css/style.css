@@ -141,11 +141,11 @@ header nav ul li:last-of-type a{
     display: flex;
     justify-content: right;
     align-items: center;
-    padding-right: 62px;
+    padding-right: 60px;
     position: relative;
 }
 .photo_banner .photo_text_container{
-    max-width: 298px;
+    max-width: 300px;
     margin: inherit;
 }
 .photo_banner h3{
@@ -174,11 +174,11 @@ header nav ul li:last-of-type a{
     display: flex;
     justify-content: right;
     align-items: center;
-    padding-right: 87px;
+    padding-right: 60px;
     position: relative;
 }
 .photo_banner2 .photo_text_container2{
-    max-width: 273px;
+    max-width: 300px;
     margin: inherit;
 }
 .photo_banner2 h3{
@@ -243,11 +243,11 @@ header nav ul li:last-of-type a{
     display: flex;
     justify-content: right;
     align-items: center;
-    padding-right: 106px;
+    padding-right: 60px;
     position: relative;
 }
 .photo_banner3 .photo_text_container3{
-    max-width: 241px;
+    max-width: 300px;
     margin: inherit;
 }
 .photo_banner3 h3{
