@@ -27,7 +27,7 @@
 }
 @media only screen and (max-width: 594px) {
     .clients_banner p{
-        padding: 0 10px;
+        padding: 0 10px 82px 10px;
     }
     .clients_banner a {
         margin: 10px 15px;
