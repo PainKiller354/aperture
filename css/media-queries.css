@@ -16,9 +16,8 @@
     .clients_banner a {
         margin: 10px 35px;
     }
-
     .photo_banner {
-        padding-right: px;
+        padding-right: 20px;
     }
 
     .photo_banner2 {
@@ -71,7 +70,10 @@
     }
     .photo_banner {
         justify-content: center;
-        padding: 0 30px;
+        padding: 0;
+    }
+    .photo_banner .photo_text_container{
+        margin: auto;
     }
     .photo_banner h3 {
         font-size: 10px;
@@ -81,7 +83,10 @@
     }
     .photo_banner2 {
         justify-content: center;
-        padding: 0 30px;
+        padding: 0;
+    }
+    .photo_banner2 .photo_text_container2{
+        margin: auto;
     }
     .photo_banner2 h3 {
         font-size: 10px;
@@ -97,7 +102,10 @@
     }
     .photo_banner3 {
         justify-content: center;
-        padding: 0 30px;
+        padding: 0;
+    }
+    .photo_banner3 .photo_text_container3{
+        margin: auto;
     }
     .photo_banner3 h3 {
         font-size: 10px;
