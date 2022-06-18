@@ -235,6 +235,45 @@ header nav ul li:last-of-type a{
     display: flex;
     justify-content: space-between;
 }
+.clients_banner a{
+    display: inline-block;
+    max-width: 128px;
+}
+.clients_banner a img{
+    width: 100%;
+    display: block;
+}
+.owl-stage{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.owl-nav .owl-prev:before{
+    font-family: "Font Awesome 6 Free", sans-serif;
+    font-weight: 900;
+    content: "\f104";
+    font-size: 30px;
+    color: #FFFFFF;
+    position: relative;
+    top: -60px;
+    padding: 25px;
+}
+.owl-nav .owl-next:before{
+    font-family: "Font Awesome 6 Free", sans-serif;
+    font-weight: 900;
+    content: "\f105";
+    font-size: 30px;
+    color: #FFFFFF;
+    position: relative;
+    top: -60px;
+    padding: 25px;
+}
+.owl-nav{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
     /*photo_banner3 section*/
 .photo_banner3{
     background-image: url("../images/IMAGE4.jpg");
@@ -321,4 +360,3 @@ header nav ul li:last-of-type a{
     margin-right: 6px;
     margin-left: -4px;
 }
-
