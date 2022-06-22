@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media-queries.css">
 </head>
@@ -45,13 +45,13 @@
 </header>
 <section class="main_banner">
     <div class="container">
-        <h3>Photographer & Filmmaker</h3>
-        <h1>Aperture Studios</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+        <h3 class="animate__animated animate__fadeInDown animate__delay-1s">Photographer & Filmmaker</h3>
+        <h1 class="animate__animated animate__fadeIn animate__delay-2s">Aperture Studios</h1>
+        <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
             Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean
             faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
     </div>
-    <ul class="components">
+    <ul class="components animate__animated animate__fadeIn animate__delay-1s">
         <li>1/2000s</li>
         <li>f/11</li>
         <li>100</li>
@@ -59,11 +59,11 @@
     </ul>
 </section>
 <section class="photo_banner">
-    <div class="photo_text_container animate__animated animate__fadeIn animate__delay-2s">
+    <div class="photo_text_container wow animate__fadeInLeft" data-wow-duration="3s">
         <h3>Sunset at Mount Fuji</h3>
         <p>Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non.</p>
     </div>
-    <ul class="components animate__animated animate__fadeIn animate__delay-1s">
+    <ul class="components wow animate__fadeIn" data-wow-duration="1s">
         <li>1''</li>
         <li>f/16</li>
         <li>400</li>
@@ -71,11 +71,11 @@
     </ul>
 </section>
 <section class="photo_banner2">
-    <div class="photo_text_container2 animate__animated animate__fadeIn animate__delay-2s">
+    <div class="photo_text_container2 wow animate__fadeInLeft" data-wow-duration="3s">
         <h3>Monstera Leafs</h3>
         <p>Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
     </div>
-    <ul class="components animate__animated animate__fadeIn animate__delay-1s">
+    <ul class="components wow animate__fadeIn" data-wow-duration="1s">
         <li>1/400s</li>
         <li>f/3,5</li>
         <li>100</li>
@@ -101,12 +101,12 @@
     </div>
 </section>
 <section class="photo_banner3">
-    <div class="photo_text_container3 animate__animated animate__fadeIn animate__delay-2s">
+    <div class="photo_text_container3 wow animate__fadeInLeft" data-wow-duration="3s">
         <h3>Star fall in the Himalayas</h3>
         <p>Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut
             ligula.</p>
     </div>
-    <ul class="components animate__animated animate__fadeIn animate__delay-1s">
+    <ul class="components wow animate__fadeIn" data-wow-duration="1s">
         <li>6''</li>
         <li>f/11</li>
         <li>800</li>
@@ -117,7 +117,7 @@
     <div class="container">
         <h3>Need help with photography<br> or videography?</h3>
         <p>We're here for you!</p>
-        <a href="#" target="_blank">Get in touch</a>
+        <a class="wow animate__pulse" data-wow-duration="2s" data-wow-delay="1s" href="#" target="_blank">Get in touch</a>
     </div>
 </section>
 <script src="https://kit.fontawesome.com/e9dccce8fc.js" crossorigin="anonymous"></script>
@@ -127,5 +127,9 @@
         crossorigin="anonymous"></script>
 <script src="js/owl.carousel.js"></script>
 <script src="js/scripts.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 </body>
 </html>
