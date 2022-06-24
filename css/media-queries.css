@@ -13,16 +13,21 @@
     body.nav-active .menu-icon{
         position: fixed;
         top: 40px;
-        right: 25px;
+        right: 50px;
     }
+
     .header-wrapper {
         width: calc(100% - 100px);
         min-height: 45px;
+        margin-left: 0;
     }
 
     .logo-wrap {
         top: 10px;
+        left: 50%;
+        margin-left: -64px;
     }
+
     .nav-but-wrap{
         display: inline-block;
     }
@@ -51,17 +56,20 @@
         transform: translate(100px, 0%);
     }
     .nav__list-item a{
-        margin-bottom: 20px;
+        font-size: 24px;
+        margin-bottom: 35px;
         text-transform: uppercase;
     }
     .nav__list-item:first-of-type{
         margin-right: inherit;
+        font-size: 24px;
     }
     .nav__list-item:first-of-type a{
         font-size: inherit;
     }
     .nav__list-item:last-of-type a{
         margin-bottom: 0;
+        font-size: 24px;
     }
     .nav__list-item:last-of-type a:hover{
         animation: none;
@@ -101,6 +109,23 @@
 }
 
 @media only screen and (max-width: 420px) {
+    body.nav-active .menu-icon{
+        position: fixed;
+        top: 40px;
+        right: 20px;
+    }
+
+    .menu-icon{
+        height: 30px;
+        width: 30px;
+        position: relative;
+        z-index: 2;
+        cursor: pointer;
+        display: block;
+        top: 0;
+        right: -30px;
+    }
+
     .components {
         right: 15px;
         bottom: 30px;
