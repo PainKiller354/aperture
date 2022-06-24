@@ -3,26 +3,6 @@
 /* Please ❤ this if you like it! */
 
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-
-body{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 1.7;
-    color: #c4c3ca;
-    background-color: #1f2029;
-    overflow-x: hidden;
-    -webkit-transition: all 300ms linear;
-    transition: all 300ms linear;
-}
-a {
-    cursor: pointer;
-}
-a:hover {
-    text-decoration: none;
-}
-
 /* #Cursor
 ================================================== */
 
@@ -63,7 +43,7 @@ a:hover {
     box-shadow: 0 0 22px rgba(255, 255, 255, 0.6);
 }
 .cursor2.hover{
-    background: rgba(255,255,255,1);
+    background: rgba(0,0,255,1);
     box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
 }
 
@@ -92,7 +72,7 @@ a:hover {
 ================================================== */
 
 .cd-header{
-    position: fixed;
+    position: relative;
     width:100%;
     top:0;
     left:0;
@@ -100,14 +80,14 @@ a:hover {
 }
 .header-wrapper{
     position: relative;
-    width: calc(100% - 100px);
+    width: inherit;
     margin-left: 50px;
 }
 .logo-wrap {
     position: absolute;
     display:block;
     left:0;
-    top: 40px;
+    top: -15px;
     cursor: pointer;
 }
 .logo-wrap a {
@@ -129,12 +109,12 @@ a:hover {
 }
 .nav-but-wrap{
     position: relative;
-    display: inline-block;
+    display: none;
     float: right;
     padding-left: 15px;
     padding-top: 15px;
-    margin-top: 26px;
     transition : all 0.3s ease-out;
+    z-index: 99;
 }
 .menu-icon {
     height: 30px;
@@ -175,8 +155,10 @@ a:hover {
     width: 30px;
 }
 .nav {
-    position: fixed;
+    position: relative;
     z-index: 98;
+    left: 0;
+    top: 0;
 }
 .nav:before, .nav:after {
     content: "";
@@ -203,16 +185,18 @@ a:hover {
     transition-delay: .2s;
 }
 .nav__content {
-    position: fixed;
-    visibility: hidden;
+    position: relative;
+    visibility: inherit;
     top: 50%;
-    margin-top: 20px;
-    -webkit-transform: translate(0%, -50%);
-    transform: translate(0%, -50%);
+    margin-top: 0;
+    -webkit-transform: inherit;
+    transform: inherit;
     width: 100%;
     text-align: center;
 }
 .nav__list {
+    display: flex;
+    align-items: center;
     position: relative;
     padding: 0;
     margin: 0;
@@ -223,17 +207,17 @@ a:hover {
     display: block;
     -webkit-transition-delay: 0.8s;
     transition-delay: 0.8s;
-    opacity: 0;
+    opacity: 1;
     text-align: center;
-    color: #fff;
-    overflow: hidden;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 8vh;
-    font-weight: 900;
-    line-height: 1.15;
-    letter-spacing: 3px;
-    -webkit-transform: translate(100px, 0%);
-    transform: translate(100px, 0%);
+    overflow: inherit;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    -webkit-transform: inherit;
+    transform: inherit;
     -webkit-transition: opacity .2s ease, -webkit-transform .3s ease;
     transition: opacity .2s ease, -webkit-transform .3s ease;
     transition: opacity .2s ease, transform .3s ease;
@@ -247,16 +231,27 @@ a:hover {
     color: rgba(255,255,255,0.6);
     overflow: hidden;
     cursor: pointer;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-weight: 900;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-weight: 400;
     z-index: 2;
     display: inline-block;
-    text-transform: uppercase;
+    text-transform: inherit;
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
 }
+.nav__list-item:last-of-type a{
+    padding: 11px 20px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
 .nav__list-item a:after{
+    display: none;
     position: absolute;
     content: '';
     top: 50%;
@@ -279,10 +274,11 @@ a:hover {
 .nav__list-item a:hover{
     color: rgba(255,255,255,1);
 }
-.nav__list-item.active-nav a{
-    color: rgba(255,255,255,1);
-}
+/*.nav__list-item.active-nav a{*/
+/*    color: rgba(255,255,255,1);*/
+/*}*/
 .nav__list-item.active-nav a:after{
+    display: none;
     height: 4px;
     opacity: 1;
     left: 0;
