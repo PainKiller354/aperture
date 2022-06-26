@@ -349,10 +349,10 @@ body.nav-active .nav__list-item {
     opacity: 1;
     -webkit-transform: translateX(0%);
     transform: translateX(0%);
-    -webkit-transition: opacity .3s ease, color .3s ease, -webkit-transform .3s ease;
-    transition: opacity .3s ease, color .3s ease, -webkit-transform .3s ease;
-    transition: opacity .3s ease, transform .3s ease, color .3s ease;
-    transition: opacity .3s ease, transform .3s ease, color .3s ease, -webkit-transform .3s ease;
+    -webkit-transition: opacity .3s ease, color .3s ease;
+    transition: opacity .3s ease, color .3s ease;
+    transition: opacity .3s ease, color .3s ease;
+    transition: opacity .3s ease, color .3s ease;
 }
 body.nav-active .nav__list-item:nth-child(0) {
     -webkit-transition-delay: 0.7s;
