@@ -1,16 +1,17 @@
-@media only screen and (max-width: 1250px) {
-    .d-flex {
-        justify-content: space-around;
+@media only screen and (max-width: 1170px) {
+    .what_we_do_banner .container.d-flex{
+        justify-content: center;
+    }
+    .what_we_do_banner .photography_container{
+        margin: 8px 8px;
     }
 }
-
-
 @media only screen and (max-width: 900px) {
     header .container {
         justify-content: center;
     }
 
-    body.nav-active .menu-icon{
+    body.nav-active .menu-icon {
         position: fixed;
         top: 40px;
         right: 50px;
@@ -28,19 +29,19 @@
         margin-left: -64px;
     }
 
-    .nav-but-wrap{
+    .nav-but-wrap {
         display: inline-block;
     }
 
-    .nav{
+    .nav {
         position: fixed;
     }
 
-    .nav__list{
+    .nav__list {
         display: inherit;
     }
 
-    .nav__content{
+    .nav__content {
         position: fixed;
         visibility: hidden;
         -webkit-transform: translate(0%, -50%);
@@ -48,30 +49,35 @@
         margin-top: 20px;
     }
 
-    .nav__list-item{
+    .nav__list-item {
         opacity: 0;
         overflow: hidden;
         letter-spacing: 3px;
         -webkit-transform: translate(100px, 0%);
         transform: translate(100px, 0%);
     }
-    .nav__list-item a{
+
+    .nav__list-item a {
         font-size: 24px;
         margin-bottom: 35px;
         text-transform: uppercase;
     }
-    .nav__list-item:first-of-type{
+
+    .nav__list-item:first-of-type {
         margin-right: inherit;
         font-size: 24px;
     }
-    .nav__list-item:first-of-type a{
+
+    .nav__list-item:first-of-type a {
         font-size: inherit;
     }
-    .nav__list-item:last-of-type a{
+
+    .nav__list-item:last-of-type a {
         margin-bottom: 0;
         font-size: 24px;
     }
-    .nav__list-item:last-of-type a:hover{
+
+    .nav__list-item:last-of-type a:hover {
         animation: none;
     }
 }
@@ -96,9 +102,20 @@
     .photo_banner3 {
         padding-right: 20px;
     }
+
+    footer .footer-menu ul{
+        padding: 0 8px;
+    }
+    footer .footer-subscribe {
+        justify-content: center;
+        text-align: center;
+    }
 }
 
-@media only screen and (max-width: 594px) {
+@media only screen and (max-width: 562px) {
+    .what_we_do_banner .photography_container .text_container_text{
+        padding: 0 80px 0 55px;
+    }
     .clients_banner p {
         padding: 0 10px 82px 10px;
     }
@@ -106,16 +123,34 @@
     .clients_banner a {
         margin: 10px 15px;
     }
+    footer .footer-menu__logo-items{
+        width: 100%;
+    }
+    footer .footer-menu__columns{
+        width: 100%;
+    }
+    footer .footer-subscribe__form input{
+        min-width: 285px;
+    }
+    footer .social-links {
+        justify-content: center;
+    }
+    footer .social-links__text-license {
+        order: 2;
+    }
+    footer .social-links__links {
+        order: 1;
+    }
 }
 
 @media only screen and (max-width: 420px) {
-    body.nav-active .menu-icon{
+    body.nav-active .menu-icon {
         position: fixed;
         top: 40px;
         right: 20px;
     }
 
-    .menu-icon{
+    .menu-icon {
         height: 30px;
         width: 30px;
         position: relative;
@@ -130,78 +165,105 @@
         right: 15px;
         bottom: 30px;
     }
+
     .components li {
         margin-left: 10px;
         font-size: 9px;
     }
+
     .main_banner h3 {
         font-size: 10px;
     }
+
     .main_banner h1 {
         font-size: 34px;
     }
+
     .main_banner p {
         font-size: 10px;
         padding: 0 10px;
+    }
+    .what_we_do_banner .photography_container .text_container_text{
+        padding: 0 118px 0 89px;
     }
     .photo_banner {
         justify-content: center;
         padding: 0;
     }
-    .photo_banner .photo_text_container{
+
+    .photo_banner .photo_text_container {
         margin: auto;
     }
+
     .photo_banner h3 {
         font-size: 10px;
     }
+
     .photo_banner p {
         font-size: 10px;
     }
+
     .photo_banner2 {
         justify-content: center;
         padding: 0;
     }
-    .photo_banner2 .photo_text_container2{
+
+    .photo_banner2 .photo_text_container2 {
         margin: auto;
     }
+
     .photo_banner2 h3 {
         font-size: 10px;
     }
+
     .photo_banner2 p {
         font-size: 10px;
     }
-    .clients_banner h3{
+
+    .clients_banner h3 {
         font-size: 30px;
     }
-    .clients_banner p{
+
+    .clients_banner p {
         font-size: 14px;
     }
+
     .photo_banner3 {
         justify-content: center;
         padding: 0;
     }
-    .photo_banner3 .photo_text_container3{
+
+    .photo_banner3 .photo_text_container3 {
         margin: auto;
     }
+
     .photo_banner3 h3 {
         font-size: 10px;
     }
+
     .photo_banner3 p {
         font-size: 10px;
     }
-    .contact_banner h3{
+
+    .contact_banner h3 {
         font-size: 30px;
     }
-    .contact_banner p{
+
+    .contact_banner p {
         font-size: 14px;
     }
-    .contact_banner a{
+
+    .contact_banner a {
         font-size: 14px;
     }
 }
+
 @media only screen and (max-width: 360px) {
     .main_banner {
         height: 70vh;
+    }
+    .what_we_do_banner .photography_container .text_container_text{
+        padding: 0 137px 0 109px;
     }
 }
 
