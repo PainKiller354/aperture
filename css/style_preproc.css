@@ -376,7 +376,7 @@ header {
 
 footer {
   background-color: black;
-  padding: 100px 15px; }
+  padding: 100px 15px 50px 15px; }
   footer .footer-menu {
     padding-bottom: 36px;
     border-bottom: 2px solid #FFFFFF; }
@@ -472,6 +472,8 @@ footer {
         text-decoration: none;
         color: #C0C0C0;
         margin-left: 5px; }
+        footer .social-links__text-license a:hover {
+          color: white; }
     footer .social-links__links a {
       margin: 0 10px; }
 

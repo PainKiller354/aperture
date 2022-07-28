@@ -491,7 +491,7 @@ header {
 
 footer {
   background-color: black;
-  padding: 100px 15px;
+  padding: 100px 15px 50px 15px;
 
   .footer-menu {
     padding-bottom: 36px;
@@ -622,6 +622,9 @@ footer {
         text-decoration: none;
         color: $grey_color;
         margin-left: 5px;
+        &:hover {
+          color: white;
+        }
       }
     }
 
